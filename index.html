@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convert | Application</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="./Logo.png" alt="Logo" srcset="">
+        </div>
+        <div class="menu">
+            <ul class="menu-list">
+                <button class="exitBtn">ВЫХОД</button>
+                <li class="menu-item">БАНК</li>
+                <li class="menu-item">БИЗНЕС</li>
+                <li class="menu-item">ИНВЕСТИЦИИ</li>
+                <li class="menu-item">СТРАХОВАНИЕ</li>
+                <li class="menu-item">МОБАЙЛ</li>
+                <li class="menu-item">ПУТЕШЕСТВИЯ</li>
+                <li class="menu-item">РАЗВЛЕЧЕНИЯ</li>
+            </ul>
+        </div>
+        <div class="login">
+            <button class="loginBtn">ВОЙТИ</button>
+            <button class="viewBtn">МЕНЮ</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+        <h2>Конвертер валют онлайн</h2>
+        <div class="row">
+            <div class="col">
+                <p>У меня есть</p>
+                <ul class="currency-types btnLeft">
+                    <li class="active" id="RUB">RUB</li>
+                    <li class="" id="USD">USD</li>
+                    <li class="" id="EUR">EUR</li>
+                    <li class="" id="GBP">GBP</li>
+                </ul>
+                <div class="result left-result">
+                    <input class="left-input" type="number">
+                    <span>1 RUB = 0.014017 USD</span>
+                </div>
+            </div>
+            <div class="col">
+                <p>Хочу приобрести</p>
+                <ul class="currency-types btnRight">
+                    <li class="" id="RUB">RUB</li>
+                    <li class="active" id="USD">USD</li>
+                    <li class="" id="EUR">EUR</li>
+                    <li class="" id="GBP">GBP</li>
+                </ul>
+                <div class="result right-result">
+                    <p class="right">0</p>
+                    <span>1 USD = 71.343678 RUB</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
